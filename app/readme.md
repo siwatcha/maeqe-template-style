@@ -12,7 +12,8 @@
 - $ composer install
 - $ php artisan serve 
 
-Server started http://localhost:8000
+Server started: http://localhost:8000
+Test URL: http://localhost:8000/post?page=1
 
 ## MAQEBOT
 
