@@ -60,8 +60,12 @@
             }
 
             .list-group a{
-                box-shadow: 5px 5px 10px grey;
+                box-shadow: 5px 5px 10px #E4E4E4;
                 margin-top: 15px;
+            }
+
+            .list-group a:nth-child(even){
+                background: #ECECEC;
             }
             
             .img-author {
@@ -73,7 +77,7 @@
             .author {
                 padding-top: 10px;
                 text-align: center;
-                border-left: 1px solid grey;
+                border-left: 1px solid #C2C2C2;
             }
 
             .author p {
@@ -113,7 +117,7 @@
                 <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
                     <div class="media">
                             <img src="{{ $post['image_url'] }}" class="img-thumbnail">
-                        <div class="media-body">
+                        <div class="media-body" style="color:black">
                             <h4 class="mt-0" style="font-weight: bold">{{ $post['title'] }}</h5>
                             {{ $post['body'] }}  
                             <p style="padding-top:5px">
