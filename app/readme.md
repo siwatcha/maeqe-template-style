@@ -13,3 +13,7 @@
 - $ php artisan serve 
 
 Server started http://localhost:8000
+
+## MAQEBOT
+
+- path: ./maqebot.php
